@@ -1,25 +1,47 @@
 
-#logo{
-    margin-left: 0.5em;
+#loimu1{
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    border: 2px solid #F0A167;
+    display: flex;
+    margin: auto;
+    margin-top: 3em;
+    margin-bottom: 3em;
+    display: block;
+    
 }
-
 
 footer{
+    background-image: url(/pictures/Footer\ kuva.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
     display: flex;
-    margin-top: 0.5em;
-    height: fit-content;
-    width: auto;
+    position: absolute;
+    bottom: 0;
+    padding: 30px;
+    width: 100%;
     justify-content: space-around;
-    background-color: #DDEEFB;
     color: black;
-    font: Asul;
+
 }
+#footer, a, h3{
+    font-size: smaller;
+    line-height: 1.6;
+    margin-bottom: 0em;
+    
+}
+
 h3{
     font-size: small;
     padding: 5px;
    -webkit-text-stroke-color: #F0A167;
    -webkit-text-stroke-width: 0.2px;   
 }
-#footer, a{
-    font-size: smaller;
+#otsikko{
+    font-size: 20px;
+    padding: 5px;
+   -webkit-text-stroke-color: #F0A167;
+   -webkit-text-stroke-width: 0.2px; 
 }
