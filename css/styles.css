@@ -1,5 +1,10 @@
+#navbar_mobile{
+    display: none;
+}
+
 .nav-link{
     color: black;
+    list-style: none;
 }
 .container{
     width: fit-content;
@@ -19,6 +24,7 @@
 }
 .navbar-brand{
     margin: 1em;
+    
 }
 
 #loimu1{
@@ -32,7 +38,31 @@
     display: block;
     
 }
+/*Gallerian säädöt*/
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    z-index: 1;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .desc {
+    padding: 15px;
+    text-align: center;
+  }
 
+
+/*Footerin säädöt*/
 footer{
     background-image: url(/pictures/Footer\ kuva.jpg);
     background-size: 100%;
@@ -77,13 +107,24 @@ h3{
 
 
 @media (max-width: 576px){
+    .navbar{
+        display: none;
+        list-style: none;
+    }
+
+    #navbar_mobile{
+        display: block;
+        
+    }
     footer{
         display: block;
+        
     }
     #footer{
         display: list-item;
         text-align: center;
         line-height: 1.0;
+ 
     }
     h3{
         display: list-item;
@@ -98,10 +139,10 @@ h3{
         display: list-item;
         padding-bottom: 4px;
     }
+    
     #logo{
         width: 60px;
         height: 40px;
-       
     }
     body{
         font-size: smaller;
