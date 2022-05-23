@@ -1,3 +1,5 @@
+/*Navbar tyylittelyt*/
+
 #navbar_mobile{
     display: none;
 }
@@ -26,6 +28,8 @@
     margin: 1em;
     
 }
+
+/*Etusivun kuva*/
 
 #loimu1{
     border-radius: 50%;
@@ -60,6 +64,24 @@
     padding: 15px;
     text-align: center;
   }
+/*Kuka olen -sivun muokkaukset*/
+h2{
+    text-align: center;
+    -webkit-text-stroke-color: #F0A167;
+    -webkit-text-stroke-width: 0.4px;  
+    padding-top: 1em;
+}
+p{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#quote_text{
+    text-align: center;
+    font-size: 15px;
+    -webkit-text-stroke-color: #F0A167;
+    -webkit-text-stroke-width: 0.2px;
+    padding-top: 2em;  
+}
 
 
 /*Footerin säädöt*/
@@ -105,6 +127,7 @@ h3{
     text-shadow: 1px 2px gray;
 }
 
+/*Mobiiliversion muokkaukset*/
 
 @media (max-width: 576px){
     .navbar{
@@ -114,6 +137,7 @@ h3{
 
     #navbar_mobile{
         display: block;
+        
         
     }
     footer{
