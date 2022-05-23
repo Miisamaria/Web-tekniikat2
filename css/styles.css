@@ -1,10 +1,31 @@
+.nav-link{
+    color: black;
+}
+.container{
+    width: fit-content;
+    position: absolute;
+    right: 0;
+    padding-top: 0.5em;
+}
+.nav-link:hover{
+    background-color: #F0A167;
+    opacity: 80%;
+    color: black;
+}
+.navlink:focus{
+    outline: none;
+    background-color: #F0A167;
+    opacity: 80%;
+}
+.navbar-brand{
+    margin: 1em;
+}
 
 #loimu1{
     border-radius: 50%;
     height: 200px;
     width: 200px;
-    border: 2px solid #F0A167;
-    display: flex;
+    border: 2px solid #F0A167;  
     margin: auto;
     margin-top: 3em;
     margin-bottom: 3em;
@@ -20,28 +41,80 @@ footer{
     display: flex;
     position: absolute;
     bottom: 0;
-    padding: 30px;
     width: 100%;
     justify-content: space-around;
     color: black;
 
 }
-#footer, a, h3{
+#footer, h3, a{
     font-size: smaller;
     line-height: 1.6;
-    margin-bottom: 0em;
-    
+    margin-bottom: 1em;
+    color: black; 
+    text-align: center;
 }
 
 h3{
     font-size: small;
-    padding: 5px;
    -webkit-text-stroke-color: #F0A167;
    -webkit-text-stroke-width: 0.2px;   
 }
 #otsikko{
     font-size: 20px;
-    padding: 5px;
+    text-align: center;
    -webkit-text-stroke-color: #F0A167;
    -webkit-text-stroke-width: 0.2px; 
 }
+#alaotsikko{
+    font-size: 15px;
+    text-align: center;
+    -webkit-text-stroke-color: #F0A167;
+    -webkit-text-stroke-width: 0.6px; 
+    opacity: 80%;
+    font-weight: 700;
+    text-shadow: 1px 2px gray;
+}
+
+
+@media (max-width: 576px){
+    footer{
+        display: block;
+    }
+    #footer{
+        display: list-item;
+        text-align: center;
+        line-height: 1.0;
+    }
+    h3{
+        display: list-item;
+        text-align: center;
+        line-height: 1px;
+        padding-top: 3px;
+        padding-bottom: 3px;
+    }
+    a{
+        line-height: 0;
+        text-align: center;
+        display: list-item;
+        padding-bottom: 4px;
+    }
+    #logo{
+        width: 60px;
+        height: 40px;
+       
+    }
+    body{
+        font-size: smaller;
+    }
+    #loimu1{
+        height: 150px;
+        width: 150px;
+    }
+}
+
+
+/*Mallia css muokkauksiin;
+https://stackoverflow.com/questions/70240635/navigation-bar-to-the-right-side-of-the-page
+https://www.w3schools.com/cssref/css3_pr_background-size.asp
+https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Backgrounds_and_Borders/Resizing_background_images
+*/
