@@ -5,7 +5,6 @@ fetch('https://dog.ceo/api/breeds/image/random')
      document.getElementById('print-here').innerHTML = '<img src="' + data.message + '"/>';
 });
 
-
 function myFunction() {
   alert ("Hei wauu! Sie löysit minut! Ihanaa päivää just sulle!");
 };
