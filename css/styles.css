@@ -104,7 +104,7 @@ p{
 
 /*Footerin säädöt*/
 footer{
-    background-image: url(/pictures/Footer\ kuva.jpg);
+    background-image: url(/pictures/footerkuva.jpg);
     background-size: 100%;
     background-repeat: no-repeat;
     background-position: center center;
@@ -117,7 +117,7 @@ footer{
 }
 
 footer_kukaolen{
-    background-image: url(/pictures/Footer\ kuva.jpg);
+    background-image: url(/pictures/footerkuva.jpg);
     background-size: 100%;
     background-repeat: no-repeat;
     background-position: center center;
